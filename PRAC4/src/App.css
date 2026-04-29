@@ -1,0 +1,63 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #1a1a2e; /* Dark modern background */
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  color: #0f3460;
+  background-color: #e94560;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Simple CSS Grid to lay out the components */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #16213e;
+  border: 1px solid #0f3460;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #e94560;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-untracked {
+  background-color: #0f3460;
+  color: white;
+}
+
+.btn-tracking {
+  background-color: #27ae60;
+  color: white;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+}

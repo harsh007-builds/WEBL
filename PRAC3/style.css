@@ -1,0 +1,45 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Input and main button */
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Center the list and remove bullet points */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+/* Style the task items */
+li {
+    background-color: white;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Space out the Edit/Delete buttons inside the list */
+li button {
+    margin-left: 10px;
+    background-color: #555;
+    font-size: 12px;
+}
